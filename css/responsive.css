@@ -11,6 +11,7 @@
                 height: calc(100vh - 50px);
                 background: #333;
                 top: 50px;
+                z-index: 1000;
                 left: -100%;
                 transition: 0.5s ease;
             }
@@ -157,6 +158,7 @@
             section.life_insurance {
                 height: auto;
                 padding: 10px;
+                width: 100%;
             }
             section.life_insurance h1 {
                 font-size: 40px;
@@ -192,14 +194,15 @@
             }
             /* helth insurance */
             section.health_insurance {
-                height: 100vh;
+                height: auto;
+                padding: 10px;
+                width: 100%;
             }
             section.health_innsurance .insurance_box {
                 display: block;
-                width: 100%;
             }
             section.health_innsurance .life_insurance_hero_left img {
-                height: 10rem;
+                height: 12rem;
             }
             section.health_innsurance .life_insurance_hero_left {
                 height: 12rem;
@@ -207,7 +210,6 @@
                 margin-left: 5rem;
             }
             section.health_innsurance .life_insurance_hero_right {
-                width: 100%;
                 /* margin-left: 100px; */
                 line-height: 50px;
             }
@@ -228,14 +230,22 @@
                 line-height: 24px;
             }
             /* motor section start */
+            section.motor_insurance {
+                height: auto;
+                padding: 10px;
+                width: 100%;
+            }
             section.motor_insurance .insurance_box {
                 display: block;
                 width: 100%;
             }
-            section.motor_insurance .insurance_box .life_insurance_hero_left img {
-                height: 9rem;
-                margin-top: -30px;
+            section.motor_insurance .insurance_box .life_insurance_hero_left {
+                height: 12rem;
+                width: 16rem;
                 margin-left: 5rem;
+            }
+            section.motor_insurance .insurance_box .life_insurance_hero_left img {
+                height: 10rem;
             }
             section.motor_insurance .insurance_box .life_insurance_hero_right h1 {
                 font-size: 26px;
@@ -257,7 +267,7 @@
             footer {
                 text-align: center;
                 padding: 4rem 0;
-                height: 450px;
+                height: 200px;
             }
             footer .copyright {
                 font-size: 15px;
@@ -410,8 +420,9 @@
             }
             /* real estate */
             section.real_estate {
-                display: block;
                 height: 100vh;
+                width: 100%;
+                display: block;
             }
             section.real_estate .real_estate_img img {
                 height: 10rem;
