@@ -1,0 +1,499 @@
+        @media(max-width: 991px) {
+            /* header {} */
+            .menu-toggle {
+                display: block;
+                padding: 3px 10px;
+            }
+            .navigation nav {
+                /* display: none; */
+                position: absolute;
+                width: 100%;
+                height: calc(100vh - 50px);
+                background: #333;
+                top: 50px;
+                left: -100%;
+                transition: 0.5s ease;
+            }
+            .navigation nav ul {
+                display: block;
+                text-align: center;
+            }
+            .navigation nav ul li a {
+                border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+                font-size: 19px;
+            }
+            .navigation nav.active {
+                left: 0;
+            }
+            .navigation nav ul li.active ul {
+                position: relative;
+                background-color: #003e6f;
+            }
+            .navigation nav ul li ul li {
+                width: 100%;
+            }
+            .hero {
+                display: block;
+                width: 100%;
+            }
+            .hero .left {
+                width: 100%;
+                height: 200px;
+            }
+            .hero .left img {
+                align-items: center;
+                width: 250px;
+                height: 300px;
+                /* padding: 20px; */
+                margin-left: 30px;
+            }
+            .hero .right {
+                margin-top: 0.1rem;
+                margin-right: 1px;
+            }
+            .hero .right h6,
+            .hero .right h1,
+            .hero .right h1,
+            .hero .right p,
+            .btn {
+                font-size: 25px;
+                align-items: center;
+                margin-left: 40px;
+            }
+            section.contact .card-wrapper {
+                display: block;
+                margin-left: 60px;
+                width: 70%;
+            }
+            section.contact .card-wrapper .card {
+                border-bottom: 2px solid rgb(97, 92, 92);
+                padding: 20px;
+            }
+            section.contact .card-wrapper .card h1 {
+                font-size: 15px;
+            }
+            section.contact .card-wrapper .card h6 {
+                font-size: 15px;
+            }
+            section.contact .btn-wrapper .btn {
+                font-size: 15px;
+                text-transform: capitalize;
+            }
+            section.contact .input-wrap-2 {
+                height: 100px;
+            }
+            section.contact .btn-wrapper {
+                width: 20px;
+                margin-left: 80px;
+                border-radius: 4px;
+            }
+            section.blog .card-wrapper .card {
+                width: 240px;
+            }
+            section.Services .card-wrapper {
+                display: block;
+                align-items: center;
+            }
+            section.about .container {
+                display: block;
+                width: 100%;
+            }
+            section.Services .card-wrapper .card {
+                padding: 4rem 3rem;
+            }
+            section.about .about-me-img {
+                align-items: center;
+                padding: 20px;
+                margin-left: 30px;
+            }
+            section.about .item2 {
+                align-items: center;
+                padding: 20px;
+                margin-left: 30px;
+            }
+            section {
+                padding: 2rem 0;
+            }
+            /* Insureance page */
+            section.hero_insurance {
+                width: 100%;
+            }
+            section.hero_insurance .hero_box {
+                display: block;
+                margin-top: 40px;
+            }
+            section.hero_insurance .hero_box img {
+                height: 150px;
+                margin-left: 93px;
+            }
+            section.hero_insurance .hero_box .hero_in_left {
+                width: 50%;
+                margin-left: 120px;
+            }
+            section.hero_insurance .hero_box .hero_in_right {
+                width: 100%;
+            }
+            section.hero_insurance .hero_box .hero_in_left h1 {
+                line-height: 15px;
+                font-size: 26px;
+                text-transform: uppercase;
+            }
+            section.hero_insurance .hero_box .hero_in_left h2 {
+                line-height: 45px;
+                font-size: 19px;
+                font-weight: 500;
+            }
+            section.hero_insurance .hero_box .hero_in_left p {
+                line-height: 20px;
+            }
+            section.hero_insurance .hero_box .hero_in_left a {
+                font-size: 15px;
+                line-height: 30px;
+            }
+            section.hero_insurance .hero_box .hero_in_left a i {
+                padding: 10px;
+            }
+            /* home insurence section */
+            section.life_insurance {
+                height: auto;
+                padding: 10px;
+            }
+            section.life_insurance h1 {
+                font-size: 40px;
+                padding: 0px;
+            }
+            section.life_insurance img {
+                height: 12rem;
+            }
+            section.life_insurance .life_insurance_hero_left {
+                height: 12rem;
+                width: 16rem;
+                margin-left: 5rem;
+            }
+            section.life_insurance .insurance_box {
+                display: block;
+                margin-top: 40px;
+            }
+            section.life_insurance .insurance_box h1 {
+                font-size: 26px;
+                margin-left: 5rem;
+                margin-top: 27px;
+                line-height: 29px;
+            }
+            section.life_insurance .insurance_box h2 {
+                line-height: 38px;
+                font-size: 20px;
+                margin-left: 5rem;
+            }
+            section.life_insurance .insurance_box li {
+                font-size: 13px;
+                margin-left: 5rem;
+                line-height: 24px;
+            }
+            /* helth insurance */
+            section.health_insurance {
+                height: 100vh;
+            }
+            section.health_innsurance .insurance_box {
+                display: block;
+                width: 100%;
+            }
+            section.health_innsurance .life_insurance_hero_left img {
+                height: 10rem;
+            }
+            section.health_innsurance .life_insurance_hero_left {
+                height: 12rem;
+                width: 16rem;
+                margin-left: 5rem;
+            }
+            section.health_innsurance .life_insurance_hero_right {
+                width: 100%;
+                /* margin-left: 100px; */
+                line-height: 50px;
+            }
+            section.health_innsurance .life_insurance_hero_right h1 {
+                font-size: 25px;
+                /* margin-left: 5rem; */
+                margin-top: -10px;
+                line-height: 29px;
+            }
+            section.health_innsurance .life_insurance_hero_right h2 {
+                line-height: 38px;
+                font-size: 20px;
+                /* margin-left: 5rem; */
+            }
+            section.health_innsurance .life_insurance_hero_right li {
+                font-size: 13px;
+                /* margin-left: 5rem; */
+                line-height: 24px;
+            }
+            /* motor section start */
+            section.motor_insurance .insurance_box {
+                display: block;
+                width: 100%;
+            }
+            section.motor_insurance .insurance_box .life_insurance_hero_left img {
+                height: 9rem;
+                margin-top: -30px;
+                margin-left: 5rem;
+            }
+            section.motor_insurance .insurance_box .life_insurance_hero_right h1 {
+                font-size: 26px;
+                margin-left: 5rem;
+                margin-top: 27px;
+                line-height: 29px;
+            }
+            section.motor_insurance .insurance_box .life_insurance_hero_right h2 {
+                line-height: 38px;
+                font-size: 20px;
+                margin-left: 5rem;
+            }
+            section.motor_insurance .insurance_box .life_insurance_hero_right li {
+                font-size: 13px;
+                margin-left: 5rem;
+                line-height: 24px;
+            }
+            /* footer section */
+            footer {
+                text-align: center;
+                padding: 4rem 0;
+                height: 450px;
+            }
+            footer .copyright {
+                font-size: 15px;
+            }
+            footer .footer-logo {
+                margin-bottom: 1.5rem;
+                margin-top: -70px;
+                height: 7rem;
+                border-radius: 10px;
+                width: 120px;
+            }
+            footer .footer-socials img {
+                width: 1.5rem;
+            }
+            footer .footer-socials {
+                margin-bottom: 1rem;
+                margin-top: -30px;
+            }
+            section.freelancer {
+                text-align: center;
+                padding-bottom: 7rem;
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 80%, 0 100%);
+            }
+            section.freelancer h1 {
+                font-size: 23px;
+                margin-bottom: 0.5rem;
+            }
+            section.freelancer p {
+                margin-bottom: 2rem;
+                font-size: 15px;
+                font-family: 'Lato', sans-serif;
+            }
+            /* loan section */
+            section.loan_hero {
+                width: 100%;
+                padding: 4rem;
+            }
+            section.loan_hero .hero_box {
+                display: block;
+                width: 100%;
+            }
+            section.loan_hero .hero_box .hero_in_right {
+                width: 100%;
+            }
+            section.loan_hero .hero_box .hero_in_left {
+                width: 100%;
+                margin-left: 3rem;
+                padding-top: 50px;
+            }
+            section.loan_hero .hero_box .hero_in_right img {
+                height: 12rem;
+                margin-left: 3rem;
+                padding-top: 30px;
+            }
+            section.loan_hero .hero_box .hero_in_left h1 {
+                font-size: 30px;
+                line-height: 40px;
+            }
+            section.loan_hero .hero_box .hero_in_left h2 {
+                line-height: 30px;
+                font-size: 20px;
+            }
+            section.loan_hero .hero_box .hero_in_left p {
+                line-height: 30px;
+                font-size: 18px;
+            }
+            section.loan_hero .hero_box .hero_in_left a {
+                line-height: 30px;
+                font-size: 15px;
+                display: block;
+            }
+            section.loan_hero .hero_box .hero_in_left a i {
+                padding: 13px;
+                font-size: 20px;
+            }
+            /* our requirement */
+            section.reqirements {
+                width: 100%;
+                height: 170vh;
+            }
+            section.reqirements .requirement_sec {
+                display: block;
+                width: 75%;
+                margin-left: 90px;
+                margin-top: -120px;
+            }
+            section.reqirements .requirement_sec .card img {
+                height: 150px;
+                width: 200px;
+                padding-top: 25px;
+                margin-left: 22px;
+                margin-right: 10px;
+            }
+            section.reqirements .requirement_sec .card {
+                height: 350px;
+                width: 250px;
+            }
+            section.reqirements .requirement_sec .card .width {
+                font-size: 18px;
+            }
+            section.reqirements .requirement_sec .card h1 {
+                font-size: 24px;
+                padding-left: 20px;
+                margin-top: 10px;
+                line-height: 30px;
+            }
+            section.reqirements .requirement_sec .card h2 {
+                font-size: 15px;
+                line-height: 25px;
+                font-weight: 400;
+                padding-left: 20px;
+            }
+            section.reqirements .requirement_sec .card p {
+                padding-left: 18px;
+                line-height: 28px;
+                font-size: 17px;
+            }
+            /* acc oprn section */
+            section.acc_open .hero_box {
+                display: block;
+                width: 100%;
+            }
+            section.acc_open .hero_box .hero_in_right img {
+                height: 10rem;
+            }
+            section.acc_open .hero_box .hero_in_left {
+                width: 100%;
+            }
+            section.acc_open .hero_box .hero_in_left h1 {
+                font-size: 22px;
+            }
+            section.acc_open .hero_box .hero_in_left h2 {
+                line-height: 33px;
+                font-size: 18px;
+                padding: 10px;
+            }
+            section.acc_open .hero_box .hero_in_left h3 {
+                text-transform: capitalize;
+                line-height: 35px;
+                font-size: 22px;
+            }
+            section.acc_open .hero_box .hero_in_left p {
+                line-height: 30px;
+                font-size: 15px;
+            }
+            section.acc_open .hero_box .hero_in_left li {
+                line-height: 30px;
+                font-size: 19px;
+                font-weight: 300;
+            }
+            /* real estate */
+            section.real_estate {
+                display: block;
+                height: 100vh;
+            }
+            section.real_estate .real_estate_img img {
+                height: 10rem;
+                margin-left: 4rem;
+            }
+            section.real_estate .real_estate_content {
+                margin-left: 60px;
+            }
+            section.real_estate .real_estate_content h1 {
+                font-size: 30px;
+                font-weight: 400;
+                margin-top: 30px;
+                line-height: 60px;
+            }
+            section.real_estate .real_estate_content h2 {
+                line-height: 30px;
+            }
+            section.real_estate .real_estate_content p {
+                line-height: 30px;
+                padding: 10px;
+            }
+            /* payment section */
+            section.payment_details {
+                height: 100vh;
+                margin-top: -30px;
+            }
+            section.payment_details .payment_details_secDiv {
+                display: block;
+                margin-top: -90px;
+            }
+            section.payment_details .payment_details_content li {
+                font-size: 15px;
+                padding-left: 25px;
+                line-height: 20px;
+                margin-bottom: 20px;
+                font-weight: 900;
+            }
+            section.payment_details .payment_details_content p .p1 {
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 50px;
+            }
+            section.payment_details .payment_details_content p .p2 {
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 40px;
+            }
+            section.payment_details .payment_details_content p .p3 {
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 40px;
+            }
+            section.payment_details .payment_details_content p {
+                /* border: 4px solid red; */
+                /* padding: 16px; */
+                padding-top: 10px;
+                margin-top: 20px;
+                margin-left: 80px;
+                width: 50%;
+            }
+            section.payment_details .payment_details_img img {
+                height: 10rem;
+                margin-left: 5rem;
+            }
+            /* get services */
+            section.get_services {
+                height: 100vh;
+                margin-top: 250px;
+            }
+            section.get_services .get_services_sec {
+                display: block;
+            }
+            section.get_services .get_services_sec .get_services_img img {
+                height: 10rem;
+                margin-left: 5rem;
+                margin-top: -90px;
+            }
+            section.get_services .get_services_sec .get_services_content {
+                padding: 10px;
+                font-weight: 700;
+                line-height: 30px;
+                font-size: 15px;
+                margin-left: 4rem;
+            }
+        }

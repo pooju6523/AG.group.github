@@ -1,0 +1,75 @@
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.T_shadow {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.btn a {
+    color: var(--pure);
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: var(--secondary);
+}
+
+.btn-primary:hover {
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-secondary:hover {
+    background: var(--primary);
+    color: var(--secondary);
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.item1 {
+    order: 2;
+}
+
+.item2 {
+    order: 1;
+}
+
+.justify-center {
+    justify-content: center;
+}
