@@ -100,7 +100,14 @@
                 width: 100%;
             }
             section.Services .card-wrapper .card {
-                padding: 4rem 3rem;
+                padding: 4rem 4rem;
+            }
+            section.Services .card-wrapper .card img {
+                position: absolute;
+                top: -3.5rem;
+                height: 6rem;
+                left: 50%;
+                transform: translateX(-50%);
             }
             section.about .about-me-img {
                 align-items: center;
@@ -165,7 +172,7 @@
                 padding: 0px;
             }
             section.life_insurance img {
-                height: 12rem;
+                height: 10rem;
             }
             section.life_insurance .life_insurance_hero_left {
                 height: 12rem;
@@ -174,7 +181,8 @@
             }
             section.life_insurance .insurance_box {
                 display: block;
-                margin-top: 40px;
+                /* margin-top: 40px; */
+                width: 100%;
             }
             section.life_insurance .insurance_box h1 {
                 font-size: 26px;
@@ -190,7 +198,7 @@
             section.life_insurance .insurance_box li {
                 font-size: 13px;
                 margin-left: 5rem;
-                line-height: 24px;
+                line-height: 22px;
             }
             /* helth insurance */
             section.health_insurance {
@@ -200,23 +208,20 @@
             }
             section.health_innsurance .insurance_box {
                 display: block;
+                width: 100%;
             }
             section.health_innsurance .life_insurance_hero_left img {
-                height: 12rem;
+                height: 10rem;
             }
             section.health_innsurance .life_insurance_hero_left {
                 height: 12rem;
                 width: 16rem;
                 margin-left: 5rem;
             }
-            section.health_innsurance .life_insurance_hero_right {
-                /* margin-left: 100px; */
-                line-height: 50px;
-            }
             section.health_innsurance .life_insurance_hero_right h1 {
                 font-size: 25px;
                 /* margin-left: 5rem; */
-                margin-top: -10px;
+                /* margin-top: -10px; */
                 line-height: 29px;
             }
             section.health_innsurance .life_insurance_hero_right h2 {
@@ -226,8 +231,7 @@
             }
             section.health_innsurance .life_insurance_hero_right li {
                 font-size: 13px;
-                /* margin-left: 5rem; */
-                line-height: 24px;
+                line-height: 22px;
             }
             /* motor section start */
             section.motor_insurance {
@@ -423,9 +427,10 @@
                 height: 100vh;
                 width: 100%;
                 display: block;
+                padding-top: 90px;
             }
             section.real_estate .real_estate_img img {
-                height: 10rem;
+                height: 8rem;
                 margin-left: 4rem;
             }
             section.real_estate .real_estate_content {
@@ -489,8 +494,9 @@
             }
             /* get services */
             section.get_services {
-                height: 100vh;
-                margin-top: 250px;
+                height: auto;
+                margin-top: 200px;
+                width: 100%;
             }
             section.get_services .get_services_sec {
                 display: block;
@@ -501,9 +507,9 @@
                 margin-top: -90px;
             }
             section.get_services .get_services_sec .get_services_content {
-                padding: 10px;
-                font-weight: 700;
-                line-height: 30px;
+                padding: 9px;
+                font-weight: 600;
+                line-height: 25px;
                 font-size: 15px;
                 margin-left: 4rem;
             }
